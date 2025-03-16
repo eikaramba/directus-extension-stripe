@@ -126,6 +126,7 @@ export default defineHook(({ init }, { env, database, services, logger, getSchem
         'stripe_webhook_user.role.id',
         'stripe_webhook_user.role.policies.policy.app_access',
         'stripe_webhook_user.role.policies.policy.admin_access',
+        'stripe_webhooks.*'
       ],
     });
 
